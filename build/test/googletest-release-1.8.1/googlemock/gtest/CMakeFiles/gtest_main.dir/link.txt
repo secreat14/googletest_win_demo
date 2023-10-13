@@ -1,0 +1,2 @@
+C:\PROGRA~1\LLVM\bin\llvm-ar.exe qc gtest_maind.lib CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+C:\PROGRA~1\LLVM\bin\LLVM-R~1.EXE gtest_maind.lib

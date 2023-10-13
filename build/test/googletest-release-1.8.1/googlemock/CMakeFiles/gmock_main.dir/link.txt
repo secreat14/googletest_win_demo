@@ -1,0 +1,2 @@
+C:\PROGRA~1\LLVM\bin\llvm-ar.exe qc gmock_maind.lib CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+C:\PROGRA~1\LLVM\bin\LLVM-R~1.EXE gmock_maind.lib

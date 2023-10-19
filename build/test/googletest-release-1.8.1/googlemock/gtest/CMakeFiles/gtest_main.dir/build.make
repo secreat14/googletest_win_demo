@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = X:\special_for_english\gtest_win-main
+CMAKE_SOURCE_DIR = X:\special_for_english\googletest_win_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = X:\special_for_english\gtest_win-main\build
+CMAKE_BINARY_DIR = X:\special_for_english\googletest_win_demo\build
 
 # Include any dependencies generated for this target.
 include test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -70,10 +70,10 @@ include test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir
 
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/includes_CXX.rsp
-test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: X:/special_for_english/gtest_win-main/test/googletest-release-1.8.1/googletest/src/gtest_main.cc
+test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: X:/special_for_english/googletest_win_demo/test/googletest-release-1.8.1/googletest/src/gtest_main.cc
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\gtest_win-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
-	cd /d X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest && C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -MF CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+	cd /d X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest && C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -MF CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest_main.cc
 
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
@@ -93,19 +93,19 @@ gtest_main_EXTERNAL_OBJECTS =
 test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
 test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=X:\special_for_english\gtest_win-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library gtest_maind.lib"
-	cd /d X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean_target.cmake
-	cd /d X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest_main.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library gtest_maind.lib"
+	cd /d X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean_target.cmake
+	cd /d X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest_main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/build: test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib
 .PHONY : test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/build
 
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /d X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean.cmake
+	cd /d X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean.cmake
 .PHONY : test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\special_for_english\gtest_win-main X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest X:\special_for_english\gtest_win-main\build X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\gtest\CMakeFiles\gtest_main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\special_for_english\googletest_win_demo X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest X:\special_for_english\googletest_win_demo\build X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\gtest\CMakeFiles\gtest_main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 

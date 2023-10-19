@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is Clang, found in:
-        X:/special_for_english/gtest_win-main/build/CMakeFiles/3.28.0-rc1/CompilerIdC/a.exe
+        X:/special_for_english/googletest_win_demo/build/CMakeFiles/3.28.0-rc1/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -70,7 +70,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is Clang, found in:
-        X:/special_for_english/gtest_win-main/build/CMakeFiles/3.28.0-rc1/CompilerIdCXX/a.exe
+        X:/special_for_english/googletest_win_demo/build/CMakeFiles/3.28.0-rc1/CompilerIdCXX/a.exe
       
   -
     kind: "message-v1"
@@ -101,8 +101,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-wxg733"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-wxg733"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-b9im15"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-b9im15"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -110,17 +110,17 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-wxg733'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-b9im15'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_ce964/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ce964.dir\\build.make CMakeFiles/cmTC_ce964.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-wxg733'
-        Building C object CMakeFiles/cmTC_ce964.dir/CMakeCCompilerABI.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ce964.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_ce964.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_ce964.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Linking C executable cmTC_ce964.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ce964.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_ce964.dir\\objects1.rsp -o cmTC_ce964.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ce964.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wxg733\\cmTC_ce964.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-wxg733'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_14f67/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_14f67.dir\\build.make CMakeFiles/cmTC_14f67.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-b9im15'
+        Building C object CMakeFiles/cmTC_14f67.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_14f67.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_14f67.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_14f67.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Linking C executable cmTC_14f67.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_14f67.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_14f67.dir\\objects1.rsp -o cmTC_14f67.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_14f67.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b9im15\\cmTC_14f67.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-b9im15'
         
       exitCode: 0
   -
@@ -132,8 +132,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-olxhwn"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-olxhwn"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jdjbdc"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jdjbdc"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -141,17 +141,17 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-olxhwn'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jdjbdc'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_0c6fd/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0c6fd.dir\\build.make CMakeFiles/cmTC_0c6fd.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-olxhwn'
-        Building CXX object CMakeFiles/cmTC_0c6fd.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0c6fd.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_0c6fd.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_0c6fd.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Linking CXX executable cmTC_0c6fd.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0c6fd.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_0c6fd.dir\\objects1.rsp -o cmTC_0c6fd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0c6fd.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olxhwn\\cmTC_0c6fd.pdb -Xlinker /version:0.0  
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-olxhwn'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_9b4de/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b4de.dir\\build.make CMakeFiles/cmTC_9b4de.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jdjbdc'
+        Building CXX object CMakeFiles/cmTC_9b4de.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9b4de.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_9b4de.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_9b4de.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_9b4de.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9b4de.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_9b4de.dir\\objects1.rsp -o cmTC_9b4de.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9b4de.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jdjbdc\\cmTC_9b4de.pdb -Xlinker /version:0.0  
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jdjbdc'
         
       exitCode: 0
   -
@@ -166,8 +166,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-e0hpdu"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-e0hpdu"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-xvflzr"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-xvflzr"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -175,17 +175,17 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-e0hpdu'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-xvflzr'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_73654/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_73654.dir\\build.make CMakeFiles/cmTC_73654.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-e0hpdu'
-        Building CXX object CMakeFiles/cmTC_73654.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_73654.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_73654.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_73654.dir\\feature_tests.cxx.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0hpdu\\feature_tests.cxx
-        Linking CXX executable cmTC_73654.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_73654.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_73654.dir\\objects1.rsp -o cmTC_73654.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_73654.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e0hpdu\\cmTC_73654.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_73654.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-e0hpdu'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_6d472/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6d472.dir\\build.make CMakeFiles/cmTC_6d472.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-xvflzr'
+        Building CXX object CMakeFiles/cmTC_6d472.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_6d472.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_6d472.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_6d472.dir\\feature_tests.cxx.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvflzr\\feature_tests.cxx
+        Linking CXX executable cmTC_6d472.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6d472.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_6d472.dir\\objects1.rsp -o cmTC_6d472.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6d472.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xvflzr\\cmTC_6d472.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_6d472.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-xvflzr'
         
       exitCode: 0
   -
@@ -200,8 +200,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-q9cmo4"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-q9cmo4"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-tddi8a"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-tddi8a"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
@@ -209,17 +209,17 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-q9cmo4'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-tddi8a'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_c2c51/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c2c51.dir\\build.make CMakeFiles/cmTC_c2c51.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-q9cmo4'
-        Building CXX object CMakeFiles/cmTC_c2c51.dir/feature_tests.cxx.obj
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_c2c51.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_c2c51.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_c2c51.dir\\feature_tests.cxx.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9cmo4\\feature_tests.cxx
-        Linking CXX executable cmTC_c2c51.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c2c51.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_c2c51.dir\\objects1.rsp -o cmTC_c2c51.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c2c51.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9cmo4\\cmTC_c2c51.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_c2c51.dir\\linkLibs.rsp 
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-q9cmo4'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_997ce/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_997ce.dir\\build.make CMakeFiles/cmTC_997ce.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-tddi8a'
+        Building CXX object CMakeFiles/cmTC_997ce.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_997ce.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_997ce.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_997ce.dir\\feature_tests.cxx.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tddi8a\\feature_tests.cxx
+        Linking CXX executable cmTC_997ce.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_997ce.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_997ce.dir\\objects1.rsp -o cmTC_997ce.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_997ce.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tddi8a\\cmTC_997ce.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_997ce.dir\\linkLibs.rsp 
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-tddi8a'
         
       exitCode: 0
   -
@@ -234,8 +234,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-zj2001"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-zj2001"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-zfblh4"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-zfblh4"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -243,20 +243,20 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-zj2001'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-zfblh4'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_26caf/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_26caf.dir\\build.make CMakeFiles/cmTC_26caf.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-zj2001'
-        Building C object CMakeFiles/cmTC_26caf.dir/src.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_26caf.dir/src.c.obj -MF CMakeFiles\\cmTC_26caf.dir\\src.c.obj.d -o CMakeFiles\\cmTC_26caf.dir\\src.c.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zj2001\\src.c
-        X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zj2001\\src.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_c2021/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c2021.dir\\build.make CMakeFiles/cmTC_c2021.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-zfblh4'
+        Building C object CMakeFiles/cmTC_c2021.dir/src.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c2021.dir/src.c.obj -MF CMakeFiles\\cmTC_c2021.dir\\src.c.obj.d -o CMakeFiles\\cmTC_c2021.dir\\src.c.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfblh4\\src.c
+        X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfblh4\\src.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
-        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_26caf.dir\\build.make:78: CMakeFiles/cmTC_26caf.dir/src.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-zj2001'
-        mingw32-make.exe: *** [Makefile:126: cmTC_26caf/fast] Error 2
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_c2021.dir\\build.make:78: CMakeFiles/cmTC_c2021.dir/src.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-zfblh4'
+        mingw32-make.exe: *** [Makefile:126: cmTC_c2021/fast] Error 2
         
       exitCode: 2
   -
@@ -269,8 +269,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-mvylht"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-mvylht"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-p173if"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-p173if"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -278,20 +278,20 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-mvylht'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-p173if'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_e0584/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e0584.dir\\build.make CMakeFiles/cmTC_e0584.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-mvylht'
-        Building C object CMakeFiles/cmTC_e0584.dir/CheckForPthreads.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e0584.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_e0584.dir\\CheckForPthreads.c.obj.d -o CMakeFiles\\cmTC_e0584.dir\\CheckForPthreads.c.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvylht\\CheckForPthreads.c
-        X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvylht\\CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_ce809/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ce809.dir\\build.make CMakeFiles/cmTC_ce809.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-p173if'
+        Building C object CMakeFiles/cmTC_ce809.dir/CheckForPthreads.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ce809.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_ce809.dir\\CheckForPthreads.c.obj.d -o CMakeFiles\\cmTC_ce809.dir\\CheckForPthreads.c.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p173if\\CheckForPthreads.c
+        X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p173if\\CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
             1 | #include <pthread.h>
               |          ^~~~~~~~~~~
         1 error generated.
-        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_e0584.dir\\build.make:78: CMakeFiles/cmTC_e0584.dir/CheckForPthreads.c.obj] Error 1
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-mvylht'
-        mingw32-make.exe: *** [Makefile:126: cmTC_e0584/fast] Error 2
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_ce809.dir\\build.make:78: CMakeFiles/cmTC_ce809.dir/CheckForPthreads.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-p173if'
+        mingw32-make.exe: *** [Makefile:126: cmTC_ce809/fast] Error 2
         
       exitCode: 2
   -
@@ -305,8 +305,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-877tbe"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-877tbe"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-gd3pbw"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-gd3pbw"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -314,21 +314,21 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-877tbe'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-gd3pbw'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_9852b/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9852b.dir\\build.make CMakeFiles/cmTC_9852b.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-877tbe'
-        Building C object CMakeFiles/cmTC_9852b.dir/CheckFunctionExists.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9852b.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_9852b.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_9852b.dir\\CheckFunctionExists.c.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-877tbe\\CheckFunctionExists.c
-        Linking C executable cmTC_9852b.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9852b.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_9852b.dir\\objects1.rsp -o cmTC_9852b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9852b.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-877tbe\\cmTC_9852b.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_9852b.dir\\linkLibs.rsp 
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_91b27/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_91b27.dir\\build.make CMakeFiles/cmTC_91b27.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-gd3pbw'
+        Building C object CMakeFiles/cmTC_91b27.dir/CheckFunctionExists.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_91b27.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_91b27.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_91b27.dir\\CheckFunctionExists.c.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gd3pbw\\CheckFunctionExists.c
+        Linking C executable cmTC_91b27.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_91b27.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_91b27.dir\\objects1.rsp -o cmTC_91b27.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_91b27.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gd3pbw\\cmTC_91b27.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_91b27.dir\\linkLibs.rsp 
         lld-link: error: could not open 'pthreads.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_9852b.dir\\build.make:101: cmTC_9852b.exe] Error 1
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-877tbe'
-        mingw32-make.exe: *** [Makefile:126: cmTC_9852b/fast] Error 2
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_91b27.dir\\build.make:101: cmTC_91b27.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-gd3pbw'
+        mingw32-make.exe: *** [Makefile:126: cmTC_91b27/fast] Error 2
         
       exitCode: 2
   -
@@ -342,8 +342,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-bq2dob"
-      binary: "X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-bq2dob"
+      source: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jpu9lz"
+      binary: "X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jpu9lz"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_C_FLAGS: ""
@@ -351,21 +351,21 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-bq2dob'
+        Change Dir: 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jpu9lz'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_bd335/fast
-        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bd335.dir\\build.make CMakeFiles/cmTC_bd335.dir/build
-        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-bq2dob'
-        Building C object CMakeFiles/cmTC_bd335.dir/CheckFunctionExists.c.obj
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_bd335.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_bd335.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_bd335.dir\\CheckFunctionExists.c.obj -c X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bq2dob\\CheckFunctionExists.c
-        Linking C executable cmTC_bd335.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bd335.dir\\link.txt --verbose=1
-        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_bd335.dir\\objects1.rsp -o cmTC_bd335.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_bd335.lib -Xlinker /pdb:X:\\special_for_english\\gtest_win-main\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bq2dob\\cmTC_bd335.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_bd335.dir\\linkLibs.rsp 
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 "D:/Program Files/mingw64/bin/mingw32-make.exe" -f Makefile cmTC_db8a0/fast
+        D:/Program Files/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_db8a0.dir\\build.make CMakeFiles/cmTC_db8a0.dir/build
+        mingw32-make.exe[1]: Entering directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jpu9lz'
+        Building C object CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_db8a0.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_db8a0.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles\\cmTC_db8a0.dir\\CheckFunctionExists.c.obj -c X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpu9lz\\CheckFunctionExists.c
+        Linking C executable cmTC_db8a0.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_db8a0.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles\\cmTC_db8a0.dir\\objects1.rsp -o cmTC_db8a0.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_db8a0.lib -Xlinker /pdb:X:\\special_for_english\\googletest_win_demo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jpu9lz\\cmTC_db8a0.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_db8a0.dir\\linkLibs.rsp 
         lld-link: error: could not open 'pthread.lib': no such file or directory
         clang: error: linker command failed with exit code 1 (use -v to see invocation)
-        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_bd335.dir\\build.make:101: cmTC_bd335.exe] Error 1
-        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/gtest_win-main/build/CMakeFiles/CMakeScratch/TryCompile-bq2dob'
-        mingw32-make.exe: *** [Makefile:126: cmTC_bd335/fast] Error 2
+        mingw32-make.exe[1]: *** [CMakeFiles\\cmTC_db8a0.dir\\build.make:101: cmTC_db8a0.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory 'X:/special_for_english/googletest_win_demo/build/CMakeFiles/CMakeScratch/TryCompile-jpu9lz'
+        mingw32-make.exe: *** [Makefile:126: cmTC_db8a0/fast] Error 2
         
       exitCode: 2
 ...

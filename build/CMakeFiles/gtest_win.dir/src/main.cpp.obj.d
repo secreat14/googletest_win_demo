@@ -1,5 +1,5 @@
 CMakeFiles/gtest_win.dir/src/main.cpp.obj: \
-  X:\special_for_english\gtest_win-main\src\main.cpp \
+  X:\special_for_english\googletest_win_demo\src\main.cpp \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals_core.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime.h \
@@ -108,4 +108,4 @@ CMakeFiles/gtest_win.dir/src/main.cpp.obj: \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\ctype.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\locale.h \
-  X:\special_for_english\gtest_win-main\src\include\swap\swap.h
+  X:\special_for_english\googletest_win_demo\src\include\swap\swap.h

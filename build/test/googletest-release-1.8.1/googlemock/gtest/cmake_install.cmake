@@ -1,4 +1,4 @@
-# Install script for directory: X:/special_for_english/gtest_win-main/test/googletest-release-1.8.1/googletest
+# Install script for directory: X:/special_for_english/googletest_win_demo/test/googletest-release-1.8.1/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake"
-         "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+         "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -54,36 +54,36 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES
-    "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/generated/GTestConfigVersion.cmake"
-    "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/generated/GTestConfig.cmake"
+    "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/generated/GTestConfigVersion.cmake"
+    "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/generated/GTestConfig.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "X:/special_for_english/gtest_win-main/test/googletest-release-1.8.1/googletest/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "X:/special_for_english/googletest_win_demo/test/googletest-release-1.8.1/googletest/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/gtestd.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/gtestd.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/gtest_maind.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/generated/gtest.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/generated/gtest.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/googlemock/gtest/generated/gtest_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/googlemock/gtest/generated/gtest_main.pc")
 endif()
 

@@ -1,1 +1,1 @@
-  -L"X:/special_for_english/gtest_win-main/lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames 
+  -LX:/special_for_english/googletest_win_demo/lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames 

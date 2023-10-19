@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = X:\special_for_english\gtest_win-main
+CMAKE_SOURCE_DIR = X:\special_for_english\googletest_win_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = X:\special_for_english\gtest_win-main\build
+CMAKE_BINARY_DIR = X:\special_for_english\googletest_win_demo\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gtest_win.dir/depend.make
@@ -70,10 +70,10 @@ include CMakeFiles/gtest_win.dir/flags.make
 
 CMakeFiles/gtest_win.dir/src/main.cpp.obj: CMakeFiles/gtest_win.dir/flags.make
 CMakeFiles/gtest_win.dir/src/main.cpp.obj: CMakeFiles/gtest_win.dir/includes_CXX.rsp
-CMakeFiles/gtest_win.dir/src/main.cpp.obj: X:/special_for_english/gtest_win-main/src/main.cpp
+CMakeFiles/gtest_win.dir/src/main.cpp.obj: X:/special_for_english/googletest_win_demo/src/main.cpp
 CMakeFiles/gtest_win.dir/src/main.cpp.obj: CMakeFiles/gtest_win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\gtest_win-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest_win.dir/src/main.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/main.cpp.obj -MF CMakeFiles\gtest_win.dir\src\main.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\main.cpp.obj -c X:\special_for_english\gtest_win-main\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest_win.dir/src/main.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/main.cpp.obj -MF CMakeFiles\gtest_win.dir\src\main.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\main.cpp.obj -c X:\special_for_english\googletest_win_demo\src\main.cpp
 
 CMakeFiles/gtest_win.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_win.dir/src/main.cpp.i"
@@ -83,12 +83,42 @@ CMakeFiles/gtest_win.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_win.dir/src/main.cpp.s"
 	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
+CMakeFiles/gtest_win.dir/src/src/add.cpp.obj: CMakeFiles/gtest_win.dir/flags.make
+CMakeFiles/gtest_win.dir/src/src/add.cpp.obj: CMakeFiles/gtest_win.dir/includes_CXX.rsp
+CMakeFiles/gtest_win.dir/src/src/add.cpp.obj: X:/special_for_english/googletest_win_demo/src/src/add.cpp
+CMakeFiles/gtest_win.dir/src/src/add.cpp.obj: CMakeFiles/gtest_win.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtest_win.dir/src/src/add.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/src/add.cpp.obj -MF CMakeFiles\gtest_win.dir\src\src\add.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\src\add.cpp.obj -c X:\special_for_english\googletest_win_demo\src\src\add.cpp
+
+CMakeFiles/gtest_win.dir/src/src/add.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_win.dir/src/src/add.cpp.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/gtest_win.dir/src/src/add.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_win.dir/src/src/add.cpp.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
+CMakeFiles/gtest_win.dir/src/src/division.cpp.obj: CMakeFiles/gtest_win.dir/flags.make
+CMakeFiles/gtest_win.dir/src/src/division.cpp.obj: CMakeFiles/gtest_win.dir/includes_CXX.rsp
+CMakeFiles/gtest_win.dir/src/src/division.cpp.obj: X:/special_for_english/googletest_win_demo/src/src/division.cpp
+CMakeFiles/gtest_win.dir/src/src/division.cpp.obj: CMakeFiles/gtest_win.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gtest_win.dir/src/src/division.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/src/division.cpp.obj -MF CMakeFiles\gtest_win.dir\src\src\division.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\src\division.cpp.obj -c X:\special_for_english\googletest_win_demo\src\src\division.cpp
+
+CMakeFiles/gtest_win.dir/src/src/division.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_win.dir/src/src/division.cpp.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+
+CMakeFiles/gtest_win.dir/src/src/division.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest_win.dir/src/src/division.cpp.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+
 CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj: CMakeFiles/gtest_win.dir/flags.make
 CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj: CMakeFiles/gtest_win.dir/includes_CXX.rsp
-CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj: X:/special_for_english/gtest_win-main/src/src/swap.cpp
+CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj: X:/special_for_english/googletest_win_demo/src/src/swap.cpp
 CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj: CMakeFiles/gtest_win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\gtest_win-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj"
-	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj -MF CMakeFiles\gtest_win.dir\src\src\swap.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\src\swap.cpp.obj -c X:\special_for_english\gtest_win-main\src\src\swap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj"
+	C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj -MF CMakeFiles\gtest_win.dir\src\src\swap.cpp.obj.d -o CMakeFiles\gtest_win.dir\src\src\swap.cpp.obj -c X:\special_for_english\googletest_win_demo\src\src\swap.cpp
 
 CMakeFiles/gtest_win.dir/src/src/swap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest_win.dir/src/src/swap.cpp.i"
@@ -101,18 +131,22 @@ CMakeFiles/gtest_win.dir/src/src/swap.cpp.s: cmake_force
 # Object files for target gtest_win
 gtest_win_OBJECTS = \
 "CMakeFiles/gtest_win.dir/src/main.cpp.obj" \
+"CMakeFiles/gtest_win.dir/src/src/add.cpp.obj" \
+"CMakeFiles/gtest_win.dir/src/src/division.cpp.obj" \
 "CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj"
 
 # External object files for target gtest_win
 gtest_win_EXTERNAL_OBJECTS =
 
 gtest_win.exe: CMakeFiles/gtest_win.dir/src/main.cpp.obj
+gtest_win.exe: CMakeFiles/gtest_win.dir/src/src/add.cpp.obj
+gtest_win.exe: CMakeFiles/gtest_win.dir/src/src/division.cpp.obj
 gtest_win.exe: CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj
 gtest_win.exe: CMakeFiles/gtest_win.dir/build.make
 gtest_win.exe: CMakeFiles/gtest_win.dir/linkLibs.rsp
 gtest_win.exe: CMakeFiles/gtest_win.dir/objects1.rsp
 gtest_win.exe: CMakeFiles/gtest_win.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=X:\special_for_english\gtest_win-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gtest_win.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable gtest_win.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest_win.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +158,6 @@ CMakeFiles/gtest_win.dir/clean:
 .PHONY : CMakeFiles/gtest_win.dir/clean
 
 CMakeFiles/gtest_win.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\special_for_english\gtest_win-main X:\special_for_english\gtest_win-main X:\special_for_english\gtest_win-main\build X:\special_for_english\gtest_win-main\build X:\special_for_english\gtest_win-main\build\CMakeFiles\gtest_win.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" X:\special_for_english\googletest_win_demo X:\special_for_english\googletest_win_demo X:\special_for_english\googletest_win_demo\build X:\special_for_english\googletest_win_demo\build X:\special_for_english\googletest_win_demo\build\CMakeFiles\gtest_win.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gtest_win.dir/depend
 

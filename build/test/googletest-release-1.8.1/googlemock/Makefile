@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = X:\special_for_english\gtest_win-main
+CMAKE_SOURCE_DIR = X:\special_for_english\googletest_win_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = X:\special_for_english\gtest_win-main\build
+CMAKE_BINARY_DIR = X:\special_for_english\googletest_win_demo\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d X:\special_for_english\gtest_win-main\build && $(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\gtest_win-main\build\CMakeFiles X:\special_for_english\gtest_win-main\build\test\googletest-release-1.8.1\googlemock\\CMakeFiles\progress.marks
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/all
-	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\gtest_win-main\build\CMakeFiles 0
+	cd /d X:\special_for_english\googletest_win_demo\build && $(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\googletest_win_demo\build\CMakeFiles X:\special_for_english\googletest_win_demo\build\test\googletest-release-1.8.1\googlemock\\CMakeFiles\progress.marks
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/all
+	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\googletest_win_demo\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/clean
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/preinstall
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/preinstall
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d X:\special_for_english\gtest_win-main\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d X:\special_for_english\googletest_win_demo\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/rule
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ gmock: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/rule
 
 # fast build rule for target.
 gmock/fast:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/build
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 # Convenience name for target.
 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/rule
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ gmock_main: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/r
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 src/gmock-all.obj: src/gmock-all.cc.obj
@@ -193,7 +193,7 @@ src/gmock-all.obj: src/gmock-all.cc.obj
 
 # target to build an object file
 src/gmock-all.cc.obj:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj
 .PHONY : src/gmock-all.cc.obj
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -201,7 +201,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -209,7 +209,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.obj: src/gmock_main.cc.obj
@@ -217,7 +217,7 @@ src/gmock_main.obj: src/gmock_main.cc.obj
 
 # target to build an object file
 src/gmock_main.cc.obj:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
 .PHONY : src/gmock_main.cc.obj
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -225,7 +225,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -233,7 +233,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /d X:\special_for_english\gtest_win-main\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /d X:\special_for_english\googletest_win_demo\build && $(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d X:\special_for_english\gtest_win-main\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d X:\special_for_english\googletest_win_demo\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,3 +1,3 @@
 test/CMakeFiles/gtest_win_test.dir/__/src/src/swap.cpp.obj: \
-  X:\special_for_english\gtest_win-main\src\src\swap.cpp \
-  X:\special_for_english\gtest_win-main\src\include\swap\swap.h
+  X:\special_for_english\googletest_win_demo\src\src\swap.cpp \
+  X:\special_for_english\googletest_win_demo\src\include\swap\swap.h

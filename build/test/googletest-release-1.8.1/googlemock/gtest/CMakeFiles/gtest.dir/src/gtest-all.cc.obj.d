@@ -1,6 +1,6 @@
 test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-all.cc \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-all.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals_core.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime.h \
@@ -108,15 +108,15 @@ test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-al
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\locale.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-internal.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-port.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-internal.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-port.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\string \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sstream \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-port-arch.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest-port.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-port-arch.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest-port.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\direct.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\io.h \
@@ -127,26 +127,26 @@ test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-al
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\set \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-message.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-filepath.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-string.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-type-util.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-death-test.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-death-test-internal.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-param-test.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-param-util.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-linked_ptr.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-message.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-filepath.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-string.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-type-util.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-death-test.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-death-test-internal.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-param-test.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-param-util.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-linked_ptr.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\assert.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-printers.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest-printers.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-param-util-generated.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest_prod.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-test-part.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-typed-test.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest_pred_impl.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest.cc \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\include\gtest\gtest-spi.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-printers.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest-printers.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\gtest-param-util-generated.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest_prod.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-test-part.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-typed-test.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest_pred_impl.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\internal\custom\gtest.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\include\gtest\gtest-spi.h \
   C:\Program\ Files\LLVM\lib\clang\17\include\stdarg.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\wctype.h \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\list \
@@ -290,12 +290,12 @@ test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-al
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\um\mcx.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\um\imm.h \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\um\ime_cmodes.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-internal-inl.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-death-test.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-internal-inl.h \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-death-test.cc \
   C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.22000.0\ucrt\fcntl.h \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-filepath.cc \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-port.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-filepath.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-port.cc \
   C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-printers.cc \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-test-part.cc \
-  X:\special_for_english\gtest_win-main\test\googletest-release-1.8.1\googletest\src\gtest-typed-test.cc
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-printers.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-test-part.cc \
+  X:\special_for_english\googletest_win_demo\test\googletest-release-1.8.1\googletest\src\gtest-typed-test.cc

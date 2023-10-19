@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = X:\special_for_english\gtest_win-main
+CMAKE_SOURCE_DIR = X:\special_for_english\googletest_win_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = X:\special_for_english\gtest_win-main\build
+CMAKE_BINARY_DIR = X:\special_for_english\googletest_win_demo\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\gtest_win-main\build\CMakeFiles X:\special_for_english\gtest_win-main\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\googletest_win_demo\build\CMakeFiles X:\special_for_english\googletest_win_demo\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\gtest_win-main\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start X:\special_for_english\googletest_win_demo\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -262,6 +262,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/src/add.obj: src/src/add.cpp.obj
+.PHONY : src/src/add.obj
+
+# target to build an object file
+src/src/add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/add.cpp.obj
+.PHONY : src/src/add.cpp.obj
+
+src/src/add.i: src/src/add.cpp.i
+.PHONY : src/src/add.i
+
+# target to preprocess a source file
+src/src/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/add.cpp.i
+.PHONY : src/src/add.cpp.i
+
+src/src/add.s: src/src/add.cpp.s
+.PHONY : src/src/add.s
+
+# target to generate assembly for a file
+src/src/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/add.cpp.s
+.PHONY : src/src/add.cpp.s
+
+src/src/division.obj: src/src/division.cpp.obj
+.PHONY : src/src/division.obj
+
+# target to build an object file
+src/src/division.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/division.cpp.obj
+.PHONY : src/src/division.cpp.obj
+
+src/src/division.i: src/src/division.cpp.i
+.PHONY : src/src/division.i
+
+# target to preprocess a source file
+src/src/division.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/division.cpp.i
+.PHONY : src/src/division.cpp.i
+
+src/src/division.s: src/src/division.cpp.s
+.PHONY : src/src/division.s
+
+# target to generate assembly for a file
+src/src/division.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gtest_win.dir\build.make CMakeFiles/gtest_win.dir/src/src/division.cpp.s
+.PHONY : src/src/division.cpp.s
+
 src/src/swap.obj: src/src/swap.cpp.obj
 .PHONY : src/src/swap.obj
 
@@ -307,6 +355,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/src/add.obj
+	@echo ... src/src/add.i
+	@echo ... src/src/add.s
+	@echo ... src/src/division.obj
+	@echo ... src/src/division.i
+	@echo ... src/src/division.s
 	@echo ... src/src/swap.obj
 	@echo ... src/src/swap.i
 	@echo ... src/src/swap.s

@@ -1,4 +1,4 @@
-# Install script for directory: X:/special_for_english/gtest_win-main/test
+# Install script for directory: X:/special_for_english/googletest_win_demo/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("X:/special_for_english/gtest_win-main/build/test/googletest-release-1.8.1/cmake_install.cmake")
+  include("X:/special_for_english/googletest_win_demo/build/test/googletest-release-1.8.1/cmake_install.cmake")
 
 endif()
 

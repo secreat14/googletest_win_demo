@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gtest_win.dir/src/main.cpp.obj"
   "CMakeFiles/gtest_win.dir/src/main.cpp.obj.d"
+  "CMakeFiles/gtest_win.dir/src/src/add.cpp.obj"
+  "CMakeFiles/gtest_win.dir/src/src/add.cpp.obj.d"
+  "CMakeFiles/gtest_win.dir/src/src/division.cpp.obj"
+  "CMakeFiles/gtest_win.dir/src/src/division.cpp.obj.d"
   "CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj"
   "CMakeFiles/gtest_win.dir/src/src/swap.cpp.obj.d"
   "gtest_win.exe"

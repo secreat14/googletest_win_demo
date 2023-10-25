@@ -173,9 +173,9 @@ CMakeFiles/gtest_win.dir/clean:
 # Target rules for target test/CMakeFiles/gtest_win_test.dir
 
 # All Build rule for target.
-test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/all
-test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/all
 test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/all
+test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/all
 test/CMakeFiles/gtest_win_test.dir/all: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\gtest_win_test.dir\build.make test/CMakeFiles/gtest_win_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\gtest_win_test.dir\build.make test/CMakeFiles/gtest_win_test.dir/build
@@ -228,8 +228,8 @@ test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/all
 test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/all: test/googletest-release-1.8.1/googlemock/gtest/CMakeFiles/gtest.dir/all
+test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/all: test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\googletest-release-1.8.1\googlemock\CMakeFiles\gmock_main.dir\build.make test/googletest-release-1.8.1/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=X:\special_for_english\googletest_win_demo\build\CMakeFiles --progress-num=3,4 "Built target gmock_main"
